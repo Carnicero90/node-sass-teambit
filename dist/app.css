@@ -190,3 +190,20 @@ header nav .signup img {
 .how > .step:nth-child(2n+1) .description {
   order: 2;
 }
+
+footer {
+  padding-top: 2.2em;
+}
+footer .slogan {
+  width: 30%;
+}
+footer .footer-nav {
+  width: 70%;
+}
+footer .footer-nav h4 {
+  padding-bottom: 1.5em;
+  font-size: 1.4em;
+}
+footer .footer-nav li {
+  padding-bottom: 1em;
+}
