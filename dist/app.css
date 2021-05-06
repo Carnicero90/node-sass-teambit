@@ -108,6 +108,10 @@ body {
   padding: 0.4em;
 }
 
+.bg-brand {
+  background-color: #ffe7d2;
+}
+
 header {
   border-bottom: 1px solid #58402c;
   padding-top: 20px;
@@ -132,4 +136,57 @@ header nav .signup img {
 
 .jumbotron > div {
   width: 46%;
+}
+
+.poidecido h2 {
+  max-width: 65%;
+  text-align: center;
+}
+.poidecido .triptych {
+  width: 100%;
+  align-items: stretch;
+}
+.poidecido .triptych > div {
+  width: calc( 100% / 3);
+}
+.poidecido .triptych img {
+  display: block;
+  margin: auto;
+  height: 5rem;
+}
+.poidecido .centered-comic img {
+  display: block;
+  margin: auto;
+  height: 15rem;
+}
+
+.how {
+  width: 90%;
+  margin: auto;
+}
+.how > .step {
+  justify-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.how > .step .screen {
+  width: 50%;
+}
+.how > .step .description {
+  width: 25%;
+}
+.how > .step .description h3 {
+  padding-bottom: 25px;
+}
+.how > .step .description p {
+  padding-bottom: 15px;
+}
+.how > .step .description a {
+  color: #48609e;
+}
+.how > .step:nth-child(2n+1) {
+  justify-content: flex-start;
+}
+.how > .step:nth-child(2n+1) .description {
+  order: 2;
 }

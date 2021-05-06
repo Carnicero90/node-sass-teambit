@@ -1,0 +1,29 @@
+.how {
+    width: 90%;
+    margin: auto;
+    &>.step {
+        justify-content: flex-end;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .screen {
+            width: 50%;}
+        .description {
+            width: 25%;
+            h3 {
+                padding-bottom: 25px;
+            }
+            p {
+                padding-bottom: 15px;
+            }
+           a {
+            color: $link_color;
+            }
+        }
+    }
+    &>.step:nth-child(2n+1) {
+        justify-content: flex-start;
+        .description {
+            order: 2;
+        }
+    }
+}

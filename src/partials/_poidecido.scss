@@ -1,0 +1,26 @@
+.poidecido {
+    h2 {
+        max-width: 65%;
+        text-align: center;
+    }
+    .triptych {
+        width: 100%;
+        align-items: stretch;
+        &>div{
+            width: calc( 100% / 3)       
+        }
+        img {
+            display: block;
+            margin: auto;
+            height: 5rem;
+        }
+        
+    }
+    .centered-comic {
+        img {
+            display: block;
+            margin: auto;
+            height: 15rem;
+        }
+    }
+}
