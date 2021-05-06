@@ -1,0 +1,27 @@
+$header_pad: 20px;
+
+header {
+    border-bottom: 1px solid $text_color;
+    padding-top: $header_pad;
+    padding-bottom: $header_pad;
+    .logo {
+        img {
+            height: 1.6em;
+        }
+    }
+    nav {
+        li {
+            font-weight: 500;
+            margin-left: 1.3em;
+        }
+        .signup {
+            color: $link_color;
+            border: 2px solid $link_color;
+            padding: 0.3em;
+            img {
+                vertical-align: middle;
+                width: 1.6em;
+            }
+        }
+    }
+}

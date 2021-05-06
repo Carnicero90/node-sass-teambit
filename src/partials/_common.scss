@@ -1,0 +1,25 @@
+body {
+    //test
+    font-family: sans-serif;
+    color: $text_color;
+}
+
+.container {
+    width: $main_width;
+    margin: auto;
+}
+
+.base-btn {
+    display: inline-block;
+    border-radius: .3em;
+    img {
+        height: 1.2em;
+        vertical-align: middle;
+    }
+}
+.main-btn {
+    @extend .base-btn;
+    color: white;
+    background: $link_color;
+    padding: .4em;
+}

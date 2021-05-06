@@ -1,0 +1,13 @@
+// miniframework personale, senza pretese di completezza
+@import 'partials/basics';
+
+// common
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/common';
+
+// sezioni pagina
+@import 'partials/header';
+
+// MAIN
+@import 'partials/jumbotron';
