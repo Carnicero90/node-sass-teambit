@@ -1,0 +1,28 @@
+.mission {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    .smaller-container {
+        width: 40%;
+        margin: auto;
+        .core-mission {
+            background-color: white;
+            padding: 1em .8em;
+            border: 2px solid gray;
+            border-radius: .6em;
+            margin-bottom: 1.3em;
+            &>p {
+                padding-bottom: 1em;
+            }
+            .founders {
+                line-height: 90%;
+                a {
+                    color: $link_color;
+                }
+                img {
+                    height: 2.5em;
+                    margin-right: .6em;
+                }
+            }
+        }
+    }
+}

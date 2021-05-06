@@ -1,10 +1,27 @@
 footer {
     padding-top: 2.2em;
+    align-items: flex-start;
+    font-weight: 400;
+
     .slogan {
-        width: 30%;
+        width: 25%;
+        padding-right: 2em;
+
+        img {
+            height: 6em;
+            padding-right: .5em;
+        }
+        .small {
+            color: $link_color;
+            font-size: .8em;
+        }
     }
     .footer-nav {
-        width: 70%;
+        width: 75%;
+        &>li {
+            width: 20%; 
+
+        }
         h4 {
             padding-bottom: 1.5em;
             font-size: 1.4em;
